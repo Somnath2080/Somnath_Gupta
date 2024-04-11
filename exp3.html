@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Examples</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Internal CSS Example</h1>
+    <p>This is an example of internal CSS.</p>
+    <input type="checkbox" name="subscribe" value="yes"> Subscribe to newsletter
+    <input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+
+
+</body>
+</html>
+
+
+<!-- ### External CSS:
+
+External CSS is defined in a separate CSS file and linked to the HTML document.
+
+HTML (index.html):
+
+html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Examples</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>External CSS Example</h1>
+    <p>This is an example of external CSS.</p>
+</body>
+</html>
+
+CSS (styles.css):
+
+css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+<!-- ### Inline CSS:
+
+Inline CSS is defined directly within the HTML tags using the style attribute.
+html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Examples</title>
+</head>
+<body>
+    <h1 style="color: #b91a1a;">Inline CSS Example</h1>
+    <p style="font-size: 16px; color: #666;">This is an example of inline CSS.</p>
+
+</body>
+</html>

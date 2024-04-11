@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        
+        .container {
+            background-color: rgb(203, 120, 228);
+            width: 250px;
+            padding: 50px;
+            margin: 50px auto 0;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="backend.php">
+        <div class="container">
+            <h1 style="text-align: center; color: brown;">Registration Form</h1>
+    <label for="name">Name</label>
+    <div>
+    <input type="text" name="myname" id="name" placeholder="name"> </div>
+    <label for="email">email</label>
+    <div>
+    <input type="email" name="myemail" id="email" placeholder="email"></div>
+    <label for="date">date</label>
+    <div>
+        <input type="date" name="date" id="date">
+    </div> <label for="bonus">bonus</label>
+    <div>
+        <input type="number" name="mynum" id="bonus" placeholder="kitna chaiye😍"></div>
+        <label for="checked">Are you eligble </label>
+        <div>
+            <input type="checkbox" name="eligibility" id="checked">
+        </div>
+        <div>
+            Gender: Male<input type="radio" name="gender" id="">
+            Female<input type="radio" name="gender" id="">    
+        </div>
+        <div>
+            Write about yourself  <br><textarea name="My text"cols="30" rows="10" placeholder="apne bareme bata makhanchor"></textarea>
+        </div>
+        <div>
+        <label for="Car">car</label>
+        <select name="My car" id="car">
+            <option value="Swift">Swift</option>
+            <option value="Harr">harr</option>
+            <option value="putc" selected>putc</option>
+        </select>
+        </div>
+            <div>
+            <input type="submit" value="submit"></div><br>
+            <div>
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</div>
+</body>
+</html>

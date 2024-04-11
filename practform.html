@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+           width: 200px;
+           padding: 25px;
+           margin: 50px auto 0;
+           box-shadow: darkorchid;
+        }
+        input[type="submit"]:hover{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="hlo.php">
+
+            <label for="Name">Name</label>
+            <div>
+            <input type="text" name="text" id="text" placeholder="enter your name" required>
+            </div>
+            <label for="contact">contact</label> <div>
+            <input type="number" name="contact" id="contact" placeholder="+91**********" required>
+        </div>
+        <label for="Email">Email</label>
+        <div>
+            <input type="email" name="email" id="email" placeholder="*****@gmail.com" required>
+        </div>
+        <label for="password">password</label>
+        <div><input type="password" name="password" id="password" placeholder="Enter strong password" required></div>
+        <label for="date of birth">Date of birth</label>
+        <div><input type="date" name="date of birth" id="date of birth"></div>
+        <div>
+            <input style="color: rgb(18, 20, 18); background-color: darkgreen;" type="submit" value="Submit now">
+        </div>
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body{
+        background-image: url(Awesome-Chill-Wallpapers-HD.jpg);
+        animation: forwards;
+        
+     }
+     
+        .container{
+            background-color: #53327e;
+            width: 250px;
+            padding: 25px;
+            margin: 50px auto 0;
+            box-shadow: rgb(163, 59, 163) 5px 5px 5px;
+            
+           
+        }
+    </style>
+</head>
+<body >
+    
+    <div class="container">
+    <Form action="form.php">
+        <h1 style="background: cadetblue; text-align: center;color: rgb(43, 3, 136);">Registration</h1>
+        
+        <label for="name">Name</label><div>
+            <input type="text" name="name" id="name" placeholder="ENTER YOUR FULL NAME" required>
+        </div>
+        <label for="contact">Contact</label>
+        <div>
+            <input type="text" name="contact" id="contact" placeholder="+977**********" required>
+        </div>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="amail" id="email" placeholder="*****@gmail.com" required>
+        </div>
+        <label for="password">Password</label>
+        <div>
+        <input type="password" name="password" id="password" placeholder="Enter strong password" required></div>
+        <label for="gender"> Gender:</label>
+      Male<input type="radio" name="male" id="gender">
+      Female<input type="radio" name="male" id="gender"><br>
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" id="dob"> <br>
+      <label for="Blood Group">Blood Group</label>
+    <select name="blood group" id="Blood Group">
+        <option value="A+" selected>A+</option>
+        <option value="B+">B+</option>
+        <option value="AB+">AB+</option>
+        <option value="O+">O+</option>
+        <option value="A-">A-</option>
+        <option value="B-">B-</option>
+        <option value="AB-">AB-</option>
+        <option value="O-">O-</option>
+       
+      </select> <br>
+      <label for="card">Upload your adharcard</label>
+      <input type="file" name="card" id="card">
+      <br>
+      <div>
+        <input type="checkbox" name="agree" id="agree" required>agree terms&condition
+      </div>
+      <div>
+        <input type="submit" value="submit now"> 
+      
+      
+        <input type="reset"value="reset ">
+        </div>
+    
+
+      
+    </Form>
+</div>
+
+</body>
+</html>
